@@ -17,9 +17,9 @@
 
 #include <Arduino.h>
 
-#define GP2YA41SK0F "GP2YA41SK0F"
-#define GP2Y0A21YK0F "GP2Y0A21YK0F"
-#define GP2Y0A02YK0F "GP2Y0A02YK0F"
+#define GP2YA41SK0F 0
+#define GP2Y0A21YK0F 1
+#define GP2Y0A02YK0F 2
 
 class SharpIR
 {
@@ -29,12 +29,11 @@ class SharpIR
     
     uint8_t getDistance();
   
-  private:
-    
-    String sensorType;
-    uint32_t pin;
-  
   protected:
+    
+    uint8_t sensorType, pin;
+  
+  private:
     
     uint8_t distance;
     uint32_t lastTime, sampleTime;

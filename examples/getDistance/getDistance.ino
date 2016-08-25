@@ -11,7 +11,7 @@
  *
  * -----------------------------------------------------------------------------------
  *
- * Things that we need:
+ * Things that you need:
  * - Arduino
  * - A Sharp IR Sensor
  *
