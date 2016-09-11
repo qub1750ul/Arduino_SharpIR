@@ -1,8 +1,8 @@
 #include <SharpIR.h>
 
-SharpIR::SharpIR(String _sensorType, int _sensorPin)
+SharpIR::SharpIR(uint8_t _sensorType, uint8_t _sensorPin)
 {
-  sensorType = _sensorType;  
+  sensorType = _sensorType;
   pin = _sensorPin;
   lastTime = 0;
 }

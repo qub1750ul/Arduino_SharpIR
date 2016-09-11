@@ -16,7 +16,7 @@ Arduino library that allows to acquire distance data from a Sharp analog distanc
 
 - Creating an istance  
 
-    *sensorName(sensorModel, sensorPin);*   
+    *SharpIR sensorName(sensorModel, sensorPin);*   
     
     **sensorName**  : the name of the object   
     **sensorModel** : the model code of the sensor (e.g. GP2YA41SK0F)  
@@ -24,7 +24,7 @@ Arduino library that allows to acquire distance data from a Sharp analog distanc
 
 - Acquiring data
 
-  ***sensorName.getDistance();***  : function that returns an uint8\_t type value that is the distance in centimeters from the sensor and the object in fromt of it  
+  ***sensorName.getDistance();***  : function that returns an **uint8\_t** type value that is the distance in centimeters from the sensor and the object in fromt of it  
 
 ##About the author & license info
 
@@ -32,6 +32,6 @@ Created by ***Giuseppe Masino, 28 may 2016***
 Author URL: http://www.facebook.com/peppe.masino1
 
 This library and the relative example files are released under the license
-**CreativeCommons Attribution-ShareAlike 4.0 International
+**CreativeCommons Attribution-ShareAlike 4.0 International**
 
 License info: http://creativecommons.org/licenses/by-sa/4.0/  

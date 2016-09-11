@@ -36,7 +36,7 @@
 //Call the sensor "sensor"
 //The model of the sensor is "GP2YA41SK0F"
 //The sensor output pin is attached to the pin A0
-SharpIR sensor("GP2YA41SK0F", A0);
+SharpIR sensor(GP2YA41SK0F, A0);
 
 void setup()
 {

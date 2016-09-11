@@ -25,7 +25,7 @@ class SharpIR
 {
   public:
     
-    SharpIR(String _sensorType, uint8_t _sensorPin);
+    SharpIR(uint8_t _sensorType, uint8_t _sensorPin);
     
     uint8_t getDistance();
   
