@@ -4,6 +4,7 @@
  *
  * Created by Giuseppe Masino, 28 may 2016
  * Author URL http://www.facebook.com/peppe.masino1
+ * Author email: dev.giuseppemasino@outlook.it
  *
  * This library and the relative example files are released under the license
  * CreativeCommons ShareAlike-Attribution 4.0 International
@@ -12,14 +13,13 @@
  *
  */
 
-#ifndef SharpIR_lib
-#define SharpIR_lib
+#pragma once
 
 #include <Arduino.h>
 
-#define GP2YA41SK0F 0
-#define GP2Y0A21YK0F 1
-#define GP2Y0A02YK0F 2
+const bool GP2YA41SK0F = 0;
+const bool GP2Y0A21YK0F = 1;
+const uint8_t GP2Y0A02YK0F = 2;
 
 class SharpIR
 {
@@ -31,12 +31,10 @@ class SharpIR
   
   protected:
     
-    uint8_t sensorType, pin;
+    uint8_t sensorType, pin;	
   
   private:
     
     uint8_t distance;
     uint32_t lastTime, sampleTime;
 };
-
-#endif

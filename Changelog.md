@@ -4,6 +4,13 @@ symbols caption:
 > = changed/fixed
 > \* coming in a future release
 
+Changelog v1.0.3:
+
+> = Fixed a warning about the **getDistance()** method  
+> = Changed the identation  
+> = Converted the **#define** statemets in constants  
+> = Removed the **#define guards** and added the **#pragma once** statement to the top of the header  
+
 Changelog v1.0.2:
 
 > = (*Issue #1*) Fixed a bug that prevented the creation of the library instances 
@@ -18,13 +25,13 @@ Changelog v1.0.1 :
 
 > ***WARNING: This version is broken***
 > 
-> = changed some variable's type in "src/SharpIR.h" to reduce memory use
-> = changed the #define statements in "src/SharpIR.h" to reduce memory use
-> = minor grammatical corrections in "examples/getDistance.ino"
-> = changed the repository URL in "library.properties"
-> = completely rewrote README.md
+> = changed some variable's type in "src/SharpIR.h" to reduce memory use  
+> = changed the #define statements in "src/SharpIR.h" to reduce memory use  
+> = minor grammatical corrections in "examples/getDistance.ino"  
+> = changed the repository URL in "library.properties"  
+> = completely rewrote README.md  
 >
-> \* add a full changelog file updated on every release
+> \* add a full changelog file updated on every release  
 
 Changelog v1.0.0
 
