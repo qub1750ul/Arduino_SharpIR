@@ -1,13 +1,11 @@
 /*
  * getDistance
  *
- * Example of using SharpIR library to calculate the distance beetween the sharp sensor and an obstacle
+ * Example of using SharpIR library to calculate the distance beetween the sensor and an obstacle
  *
  * Created by Giuseppe Masino, 15 June 2016
- * Author URL http://www.facebook.com/peppe.masino1
- *
- * This example and the SharpIR library are released under the license
- * CreativeCommons ShareAlike-Attribution
+ * Author URL http://www.facebook.com/dev.hackerinside
+ * GitHub URL http://github.com/HackerInside0/Arduino_SharpIR
  *
  * -----------------------------------------------------------------------------------
  *

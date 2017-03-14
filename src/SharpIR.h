@@ -3,13 +3,14 @@
  * Library for the acquisition of distance data from Sharp IR sensors
  *
  * Created by Giuseppe Masino, 28 may 2016
- * Author URL http://www.facebook.com/peppe.masino1
+ * Author URL http://www.facebook.com/dev.hackerinside
  * Author email: dev.giuseppemasino@outlook.it
  *
- * This library and the relative example files are released under the license
- * CreativeCommons ShareAlike-Attribution 4.0 International
+ * This library and the relative example files are released under the
+ * CreativeCommons ShareAlike-Attribution 4.0 International license 
+ * and a custom MIT license.
  *
- * License info: http://creativecommons.org/licenses/by-sa/4.0/
+ * The license terms can be read at the following url: https://www.facebook.com/notes/giuseppe-masino/faqs-about-my-works/197854657355058
  *
  */
 
@@ -28,6 +29,7 @@ class SharpIR
     SharpIR(uint8_t _sensorType, uint8_t _sensorPin);
     
     uint8_t getDistance();
+		uint8_t getDistance(bool avoidBurstRead);
   
   protected:
     

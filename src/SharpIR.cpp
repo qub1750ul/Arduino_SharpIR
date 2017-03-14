@@ -9,7 +9,12 @@ SharpIR::SharpIR(uint8_t _sensorType, uint8_t _sensorPin)
 
 uint8_t SharpIR::getDistance()
 {
-	while(millis() <= lastTime + 20) {}; //wait for sensor's sampling time
+	return this->getDistance(true);
+}
+
+uint8_t SharpIR::getDistance(bool avoidBurstRead)
+{
+	if( !avoidBurstRead ) while(millis() <= lastTime + 20) {} //wait for sensor's sampling time
 	
 	lastTime = millis();
 	
