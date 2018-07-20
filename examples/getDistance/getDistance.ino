@@ -4,8 +4,6 @@
  * Example of using SharpIR library to calculate the distance beetween the sensor and an obstacle
  *
  * Created by Giuseppe Masino, 15 June 2016
- * Author URL http://www.facebook.com/dev.hackerinside
- * GitHub URL http://github.com/HackerInside0/Arduino_SharpIR
  *
  * -----------------------------------------------------------------------------------
  *
