@@ -1,17 +1,6 @@
 /*
  * SharpIR
  * Library for the acquisition of distance data from Sharp IR sensors
- *
- * Created by Giuseppe Masino, 28 may 2016
- * Author URL http://www.facebook.com/dev.giuseppemasino
- * Author email: dev.giuseppemasino@outlook.it
- *
- * This library and the relative example files are released under the
- * CreativeCommons ShareAlike-Attribution 4.0 International license
- * and a custom MIT license.
- *
- * The license terms can be read at the following url: https://www.facebook.com/notes/giuseppe-masino/faqs-about-my-works/197854657355058
- *
  */
 
 #pragma once

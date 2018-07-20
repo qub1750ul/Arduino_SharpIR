@@ -81,14 +81,21 @@ First be sure to read the FAQs in this repository ( if present ) and/or the [gen
 
 Use the GitHub issue tracker for techincal troubles about the implementation and to report bugs, for other requests there is [THIS PAGE](http://www.facebook.com/dev.hackerinside/).
 
-## LICENSE
 
+## License ##
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
 </a>
 <br />
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The SharpIR Library</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/HackerInside0/" property="cc:attributionName" rel="cc:attributionURL">Giuseppe Masino ( HackerInside0 )</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> and also under a custom MIT license.
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The SharpIR Library</span>
+by <a xmlns:cc="http://creativecommons.org/ns#" href="https://facebook.com/dev.giuseppemasino" property="cc:attributionName" rel="cc:attributionURL">Giuseppe Masino </a>
+is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 
-The updated terms of the license can be found [HERE]( https://www.facebook.com/notes/giuseppe-masino/faqs-about-my-works/197854657355058) and shall be available in the LICENSE.md
+If you need permissions that are beyond the scope of this license, you can ask me through this contacts,
+in order of preference:  
 
-If you need permissions that are beyond the scope of this license, you can ask to me through <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.facebook.com/dev.hackerinside/" rel="cc:morePermissions">THIS PAGE</a>
+- Telegram : <a xmlns:cc="http://creativecommons.org/ns#" href="https://telegram.me/qub1750ul" rel="cc:morePermissions">https://telegram.me/qub1750ul</a>
+- Twitter : <a xmlns:cc="http://creativecommons.org/ns#" href="https://telegram.me/qub1750ul" rel="cc:morePermissions">https://twitter.com/qub1750ul</a>
+- Facebook page : <a xmlns:cc="http://creativecommons.org/ns#" href="https://facebook.com/dev.giuseppemasino/" rel="cc:morePermissions">https://facebook.com/dev.giuseppemasino/</a>
+
+The license text can be found in the LICENSE.md file
