@@ -37,5 +37,8 @@ uint8_t SharpIR::getDistance( bool avoidBurstRead )
 				if(distance > 150) return 151;
 				else if(distance < 20) return 19;
 				else return distance;
+
+			default:
+				return 0;
 		}
 	}
